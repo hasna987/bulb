@@ -3,7 +3,7 @@
 <body>
 <head>
 <style>
-button { padding:10px; margin:60px; background-color:orange; }
+button { padding:10px; margin:60px; background-color:azure; }
 </style>
 </head>
 <script>
@@ -12,21 +12,21 @@ function light(value)
 	var pic;
 		if(value == 0) 
 		{
-			pic="of.png";
+			pic="bubl.jpg";
 		}
 		else
 		{
-			pic="on.png";
+			pic="bulb on.jpg";
 		}
 		document.getElementById('bulb').src=pic;
 	}
 </script>
 
 
-<img id="bulb" src="of.png">
+<img id="bulb" src="bubl.png">
 
 <br>
-<button onclick="light(1)">Turn ON</button>
-<button onclick="light(0)">Turn OF</button>
+<button onclick="light(1)">ON</button>
+<button onclick="light(0)">OFF</button>
 </body>
 </html>
