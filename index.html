@@ -12,18 +12,18 @@ function light(value)
 	var pic;
 		if(value == 0) 
 		{
-			pic="bubl.jpg";
+			pic="off.jpg";
 		}
 		else
 		{
-			pic="bulb on.jpg";
+			pic="on.jpg";
 		}
 		document.getElementById('bulb').src=pic;
 	}
 </script>
 
 
-<img id="bulb">
+<img id="bulb" src="off.jpg">
 
 <br>
 <button onclick="light(1)">ON</button>
